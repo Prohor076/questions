@@ -9,7 +9,7 @@ const Router = () => {
             <Route element={<App/>} path='/'></Route>
             <Route element={<Quiz/>} path='/quiz/:id'></Route>
 
-            <Route element={<div>404 Not Found</div>} path='*'></Route>
+            <Route element={<App/>} path='*'></Route>
         </Routes>
     </HashRouter>
 }
