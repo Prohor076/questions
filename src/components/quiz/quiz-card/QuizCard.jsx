@@ -157,7 +157,7 @@ const QuizCard = ({quiz}) => {
                                                 <div className={styles.quizItemsRightItemsButtons}>
                                                     <div className={styles.quizItemsRightItemsButtonsBack + ' ' + styles.quizItemsRightItemsButtonsButton}>
                                                         <div className={styles.quizItemsRightItemsButtonsButtonIcon}>
-                                                            <img src="./assets/icons/.arrow-left.svg" alt="" />
+                                                            <img src="./assets/icons/arrow-left.svg" alt="" />
                                                         </div>
                                                         <div className={styles.quizItemsRightItemsButtonsButtonText}>Назад</div>
                                                     </div>

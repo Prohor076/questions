@@ -7,7 +7,7 @@ const General = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`http://localhost:3000/quizzes`);
+                const response = await fetch(`https://prohor076.github.io/questions/database/db.json`);
                 const data = await response.json();
                 setQuizzes(data);
             } catch (error) {
