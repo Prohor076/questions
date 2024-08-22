@@ -9,7 +9,7 @@ const General = () => {
             try {
                 const response = await fetch(`https://prohor076.github.io/questions/database/db.json`);
                 const data = await response.json();
-                setQuizzes(data);
+                setQuizzes(data['quizzes']);
             } catch (error) {
                 <div>Не удалось подключиться к БД</div>
             }
