@@ -1,0 +1,307 @@
+{
+    "quizzes": [
+        {
+            "id": 1,
+            "name": "Знание Конституции",
+            "description": "Тестирование позволит оценить знание Конституции",
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "В каком году была принята действующая Конституция РФ?",
+                    "options": [
+                        {
+                            "id": 1,
+                            "text": "1997 год",
+                            "correctly": false
+                        },
+                        {
+                            "id": 2,
+                            "text": "1998 год",
+                            "correctly": false
+                        },
+                        {
+                            "id": 3,
+                            "text": "1993 год",
+                            "correctly": true
+                        },
+                        {
+                            "id": 4,
+                            "text": "1991 год",
+                            "correctly": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Какое наименование нашего государства закреплено в Конституции РФ?",
+                    "options": [
+                        {
+                            "id": 1,
+                            "text": "Российская Федерация, Россия",
+                            "correctly": true
+                        },
+                        {
+                            "id": 2,
+                            "text": "Российская Федерация, Российское государство",
+                            "correctly": false
+                        },
+                        {
+                            "id": 3,
+                            "text": "Россия, Российская Федеративная Республика",
+                            "correctly": false
+                        },
+                        {
+                            "id": 4,
+                            "text": "Россия, Русь, Российская Федерация",
+                            "correctly": false
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Какая форма государственного правления в Российской Федерации?",
+                    "options": [
+                        {
+                            "id": 1,
+                            "text": "Республика",
+                            "correctly": false
+                        },
+                        {
+                            "id": 2,
+                            "text": "Президентская республика",
+                            "correctly": false
+                        },
+                        {
+                            "id": 3,
+                            "text": "Парламентская республика",
+                            "correctly": false
+                        },
+                        {
+                            "id": 4,
+                            "text": "Парламентско-Президентская республика",
+                            "correctly": true
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "В каком случае гражданин РФ может быть выслан за пределы страны?",
+                    "options": [
+                        {
+                            "id": 1,
+                            "text": "В случае совершения преступления против государства",
+                            "correctly": false
+                        },
+                        {
+                            "id": 2,
+                            "text": "За шпионаж против Российской Федерации",
+                            "correctly": false
+                        },
+                        {
+                            "id": 3,
+                            "text": "За совершение особо тяжких преступлений",
+                            "correctly": false
+                        },
+                        {
+                            "id": 4,
+                            "text": "Гражданин РФ не может быть выслан за её пределы",
+                            "correctly": true
+                        }
+                    ]
+                }
+            ],
+            "time": 15,
+            "difficulty": "low"
+        },
+        {
+            "id": 2,
+            "name": "Знание JavaScript",
+            "description": "Тестирование позволит оценить знание языка JavaScript",
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Вопрос 1",
+                    "options": [
+                        {
+                            "id": 1,
+                            "text": "Вариант 1",
+                            "correctly": true
+                        },
+                        {
+                            "id": 2,
+                            "text": "Вариант 2",
+                            "correctly": false
+                        },
+                        {
+                            "id": 3,
+                            "text": "Вариант 3",
+                            "correctly": false
+                        },
+                        {
+                            "id": 4,
+                            "text": "Вариант 4",
+                            "correctly": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Вопрос 2",
+                    "options": [
+                        {
+                            "id": 1,
+                            "text": "Вариант 1",
+                            "correctly": true
+                        },
+                        {
+                            "id": 2,
+                            "text": "Вариант 2",
+                            "correctly": false
+                        },
+                        {
+                            "id": 3,
+                            "text": "Вариант 3",
+                            "correctly": false
+                        },
+                        {
+                            "id": 4,
+                            "text": "Вариант 4",
+                            "correctly": false
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Вопрос 3",
+                    "options": [
+                        {
+                            "id": 1,
+                            "text": "Вариант 1",
+                            "correctly": true
+                        },
+                        {
+                            "id": 2,
+                            "text": "Вариант 2",
+                            "correctly": false
+                        },
+                        {
+                            "id": 3,
+                            "text": "Вариант 3",
+                            "correctly": false
+                        },
+                        {
+                            "id": 4,
+                            "text": "Вариант 4",
+                            "correctly": false
+                        }
+                    ]
+                }
+            ],
+            "time": 12,
+            "difficulty": "medium"
+        },
+        {
+            "id": 3,
+            "name": "Знание PHP",
+            "description": "Тестирование позволит оценить знание языка PHP",
+            "answers": [
+                {
+                    "id": 1,
+                    "text": "Вопрос 1",
+                    "options": [
+                        {
+                            "id": 1,
+                            "text": "Вариант 1",
+                            "correctly": true
+                        },
+                        {
+                            "id": 2,
+                            "text": "Вариант 2",
+                            "correctly": false
+                        },
+                        {
+                            "id": 3,
+                            "text": "Вариант 3",
+                            "correctly": false
+                        },
+                        {
+                            "id": 4,
+                            "text": "Вариант 4",
+                            "correctly": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Вопрос 2",
+                    "options": [
+                        {
+                            "id": 1,
+                            "text": "Вариант 1",
+                            "correctly": false
+                        },
+                        {
+                            "id": 2,
+                            "text": "Вариант 2",
+                            "correctly": false
+                        },
+                        {
+                            "id": 3,
+                            "text": "Вариант 3",
+                            "correctly": true
+                        },
+                        {
+                            "id": 4,
+                            "text": "Вариант 4",
+                            "correctly": false
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Вопрос 3",
+                    "options": [
+                        {
+                            "id": 1,
+                            "text": "Вариант 1",
+                            "correctly": true
+                        },
+                        {
+                            "id": 2,
+                            "text": "Вариант 2",
+                            "correctly": false
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "Вопрос 4",
+                    "options": [
+                        {
+                            "id": 1,
+                            "text": "Вариант 1",
+                            "correctly": true
+                        },
+                        {
+                            "id": 2,
+                            "text": "Вариант 2",
+                            "correctly": false
+                        },
+                        {
+                            "id": 3,
+                            "text": "Вариант 3",
+                            "correctly": false
+                        },
+                        {
+                            "id": 4,
+                            "text": "Вариант 4",
+                            "correctly": false
+                        }
+                    ]
+                }
+            ],
+            "time": 10,
+            "difficulty": "high"
+        }
+    ]
+}
