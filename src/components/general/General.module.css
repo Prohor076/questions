@@ -1,0 +1,13 @@
+.containerItem {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+}

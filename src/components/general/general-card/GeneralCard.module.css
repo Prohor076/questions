@@ -1,0 +1,116 @@
+.cardLink {
+    flex: 30%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+}
+
+.card {
+    flex: 30%;
+    border: 1px solid rgba(0, 0, 0, .25);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.cardItemsHeader {
+    border-bottom: 1px solid rgba(0, 0, 0, .25);
+}
+
+.cardItemsHeaderItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.cardItemsHeaderItemsName {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cardItemsHeaderItemsDifficulty {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.cardItemsHeaderItemsDifficulty.low {
+    color: #0aa06e;
+    background: rgba(10, 160, 110, .15);
+}
+
+.cardItemsHeaderItemsDifficulty.medium {
+    color: #ffa700;
+    background: rgb(255 167 0 / 15%);
+}
+
+.cardItemsHeaderItemsDifficulty.high {
+    color: #d51818;
+    background: rgb(213 24 24 / 15%);
+}
+
+.cardItemsBody {
+    padding: 15px;
+}
+
+.cardItemsBodyList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cardItemsBodyListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 40%;
+}
+
+.cardItemsBodyListItem:nth-child(3) {
+    flex: 60%;
+    align-items: flex-start;
+}
+
+.cardItemsBodyListItem:nth-child(3) .cardItemsBodyListItemTextDesc {
+    max-width: 320px;
+}
+
+.cardItemsBodyListItemIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background: rgba(58, 99, 243, .1);
+    border-radius: 4px;
+}
+
+.cardItemsBodyListItemIcon img {
+    width: 20px;
+    height: 20px;
+}
+
+.cardItemsBodyListItemText {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardItemsBodyListItemTextDesc {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.cardItemsBodyListItemTextValue {
+    font-size: 16px;
+    font-weight: 600;
+}
