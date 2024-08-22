@@ -29,14 +29,14 @@ const GeneralCard = ({ quiz, children }) => {
                     <div className={styles.cardItemsBody}>
                         <div className={styles.cardItemsBodyList}>
                             <div className={styles.cardItemsBodyListItem}>
-                                <div className={styles.cardItemsBodyListItemIcon}><img src="/assets/icons/clock2.svg" alt="" /></div>
+                                <div className={styles.cardItemsBodyListItemIcon}><img src="./assets/icons/clock2.svg" alt="" /></div>
                                 <div className={styles.cardItemsBodyListItemText}>
                                     <div className={styles.cardItemsBodyListItemTextDesc}>Ограничение</div>
                                     <div className={styles.cardItemsBodyListItemTextValue}>{quiz.time} минут</div>
                                 </div>
                             </div>
                             <div className={styles.cardItemsBodyListItem}>
-                                <div className={styles.cardItemsBodyListItemIcon}><img src="/assets/icons/comment.svg" alt="" /></div>
+                                <div className={styles.cardItemsBodyListItemIcon}><img src="./assets/icons/comment.svg" alt="" /></div>
                                 <div className={styles.cardItemsBodyListItemText}>
                                     <div className={styles.cardItemsBodyListItemTextDesc}>Вопросы</div>
                                     <div className={styles.cardItemsBodyListItemTextValue}>{quiz.answers.length} шт.</div>

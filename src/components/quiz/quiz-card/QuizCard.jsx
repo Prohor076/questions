@@ -78,7 +78,7 @@ const QuizCard = ({quiz}) => {
                                     <div className={styles.quizItemsLeftListInfo}>
                                         <div className={styles.quizItemsLeftListInfoBlock}>
                                             <div className={styles.quizItemsLeftListInfoBlockIcon}>
-                                                <img src="/assets/icons/clock2.svg" alt="" />
+                                                <img src="./assets/icons/clock2.svg" alt="" />
                                             </div>
                                             <div className={styles.quizItemsLeftListInfoBlockText}>
                                                 <div className={styles.quizItemsLeftListInfoBlockDesc}>Вопросов</div>
@@ -87,7 +87,7 @@ const QuizCard = ({quiz}) => {
                                         </div>
                                         <div className={styles.quizItemsLeftListInfoBlock}>
                                             <div className={styles.quizItemsLeftListInfoBlockIcon}>
-                                                <img src="/assets/icons/clock2.svg" alt="" />
+                                                <img src="./assets/icons/clock2.svg" alt="" />
                                             </div>
                                             <div className={styles.quizItemsLeftListInfoBlockText}>
                                                 <div className={styles.quizItemsLeftListInfoBlockDesc}>Время</div>
@@ -102,7 +102,7 @@ const QuizCard = ({quiz}) => {
                                     <Link to={`/`} className={styles.quizItemsRightItemsBackLink}>
                                         <div className={styles.quizItemsRightItemsBack}>
                                             <div className={styles.quizItemsRightItemsBackIcon}>
-                                                <img src="/assets/icons/arrow-left.svg" alt="" />
+                                                <img src="./assets/icons/arrow-left.svg" alt="" />
                                             </div>
                                             <div className={styles.quizItemsRightItemsBackText}>Обратно к тестам ({timer})</div>
                                         </div>
@@ -157,7 +157,7 @@ const QuizCard = ({quiz}) => {
                                                 <div className={styles.quizItemsRightItemsButtons}>
                                                     <div className={styles.quizItemsRightItemsButtonsBack + ' ' + styles.quizItemsRightItemsButtonsButton}>
                                                         <div className={styles.quizItemsRightItemsButtonsButtonIcon}>
-                                                            <img src="/assets/icons/arrow-left.svg" alt="" />
+                                                            <img src="./assets/icons/.arrow-left.svg" alt="" />
                                                         </div>
                                                         <div className={styles.quizItemsRightItemsButtonsButtonText}>Назад</div>
                                                     </div>
@@ -178,7 +178,7 @@ const QuizCard = ({quiz}) => {
                                                         <input type="submit"/>
                                                         <div className={styles.quizItemsRightItemsButtonsButtonText}>Вперёд</div>
                                                         <div className={styles.quizItemsRightItemsButtonsButtonIcon}>
-                                                            <img src="/assets/icons/arrow-right.svg" alt="" />
+                                                            <img src="./assets/icons/arrow-right.svg" alt="" />
                                                         </div>
                                                     </div>
                                                 </div>
